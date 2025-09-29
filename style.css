@@ -1,0 +1,155 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.header h3 {
+    font-size: 24px;
+}
+
+.header-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Intro Section */
+.container {
+    padding: 40px 60px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.intro h1 {
+    font-size: 48px;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #6b7280;
+    margin-bottom: 20px;
+}
+
+.intro button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Info Section */
+.info {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.info h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.presentation {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.presentation li {
+    max-width: 200px;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+/* Quote Section */
+.quote {
+    background-color: #e5e7eb;
+    padding: 60px;
+    text-align: center;
+    font-style: italic;
+}
+
+#quote {
+    font-size: 24px;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+#quote-author {
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: bold;
+}
+
+/* Sign-up Section */
+.sign-up {
+    background-color: #3882f6;
+    color: white;
+    padding: 40px 60px;
+    border-radius: 10px;
+    margin: 60px auto;
+    max-width: 800px;
+}
+
+.sign-frame {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-left h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sign-txt {
+    font-size: 16px;
+}
+
+#sign-remind {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
